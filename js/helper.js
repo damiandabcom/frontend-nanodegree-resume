@@ -109,7 +109,10 @@ function initializeMap() {
     disableDefaultUI: true
   };
 
-  /* Append googleMap var to #map-div in resumeBuilder.js to see this in action */
+  /* 
+  For the map to be displayed, the googleMap var must be
+  appended to #mapDiv in resumeBuilder.js. 
+  */
   map = new google.maps.Map(document.querySelector('#map'), mapOptions);
 
 
