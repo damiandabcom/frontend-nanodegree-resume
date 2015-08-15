@@ -23,23 +23,7 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
 
   <!-- Load the page styles. -->
   <link href="css/style.css" rel="stylesheet">
-
-  <!--
-  jQuery is a common JavaScript library for reading and making changes to the
-  Document Object Model (DOM). The DOM is a tree that contains information
-  about what is actually visible on a website.
-
-  While HTML is a static document, the browser converts HTML to the
-  DOM and the DOM can change. In fact, JavaScript's power comes from
-  its ability to manipulate the DOM, which is essentially a JavaScript
-  object. When JavaScript makes something interesting happen on a
-  website, it's likely the action happened because JavaScript changed
-  the DOM. jQuery is fast and easy to use, but it doesn't do anything
-  you can't accomplish with vanilla (regular) JavaScript.
-  -->
   <script src="js/jQuery.js"></script>
-
-  <!-- More on helper.js in the class -->
   <script src="js/helper.js"></script>
 
   <!--
@@ -52,12 +36,6 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
 </head>
 <body>
   <div id="main">
-    <!--
-    Everything from here to the <script> tag below is the skeleton of your
-    website. Your code will add information to each of the sections of the
-    resume below. You can pretty easily figure out what each section will
-    display by looking at the id or at what's written between the <h2> tags.
-    -->
     <div id="header" class="center-content clear-fix">
       <ul id="topContacts" class="flex-box"></ul>
     </div>
@@ -131,7 +109,7 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
       document.getElementById('lets-connect').style.display = 'none';
     }
     if(document.getElementById('map') === null) {
-      document.getElementById('map-div').style.display = 'none';
+      document.getElementById('mapDiv').style.display = 'none';
     }
   </script>
 </body>
