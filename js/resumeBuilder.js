@@ -79,8 +79,8 @@ var projects = {
       "dates": "2014",
       "description": "Inbound Blog Engine - Web App:Logo, Webdesign, WPMU based Website, Product Development",
       "images": [
-        "images/proj1-1.jpg",
-        "images/proj1-2.jpg"
+        "images/fruittree-1.jpg",
+        "images/fruittree-2.jpg"
       ],
       "url": "http://fruittree.io"
     },
@@ -89,8 +89,8 @@ var projects = {
       "dates": "2013",
       "description": "Agency Website: Logo, Webdesign, Cloud Hosting, WordPress based Website, Business and Product Developemnt, Marketing, Advertising",
       "images": [
-        "images/proj2-1.jpg",
-        "images/proj2-2.jpg"
+        "images/metapartner-1.jpg",
+        "images/metapartner-2.jpg"
       ],
       "url": "https://www.metapartner.com"
     }

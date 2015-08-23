@@ -36,12 +36,16 @@ h6 {
   padding: 0 0 0 140px;
 }
 
-#skill,
+
 #workExperience,
 #projects,
 #education,
 #mapDivs {
   padding: 3% 0 5%;
+}
+
+#skill {
+  padding: 3% 0 0;
 }
 
 .education-entry,
@@ -119,8 +123,8 @@ a {
   display: block;
 }
 
-.blue {
-  background-color: #1199c3;
+.dark-blue {
+  background-color: #09556F;
 }
 
 .blue-text {
@@ -147,6 +151,7 @@ a {
 }
 
 img {
+  max-width: 100%;
   padding: 10px;
 }
 
@@ -290,6 +295,17 @@ ul {
 
 /*
 *
+* Projects
+*
+*/
+
+.project-image {
+  max-width: 40%;
+  margin: 2%;
+}
+
+/*
+*
 * Education
 *
 */
@@ -320,6 +336,24 @@ ul {
 
 .course-url {
   margin: 0;
+}
+
+/*
+*
+* Locations
+*
+*/
+
+#map {
+  display: block;
+  height: 90%;
+  margin: 0 5%;
+}
+
+#mapDiv {
+  height: 400px;
+  width: 100%;
+  padding-bottom: 5%;
 }
 
 /*
@@ -369,20 +403,12 @@ ul {
     width: 46%;
     margin: 2%;
   }
-}
 
-#map {
-  display: block;
-  height: 90%;
-  margin: 0 5%;
+  .project-image {
+    max-width: 100%;
+    margin: 2% 0;
+  }
 }
-
-#mapDiv {
-  height: 400px;
-  width: 100%;
-  padding-bottom: 5%;
-}
-
 
 @media only screen and (max-width: 580px) {
 
