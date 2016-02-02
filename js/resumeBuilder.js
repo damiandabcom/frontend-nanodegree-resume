@@ -20,7 +20,7 @@ var education = {
      "name": "Udacity",
      "city": "Mountain View, CA, United States",
      "degree": "Nanodegree Front-End Developer",
-     "dates": "2015",
+     "dates": "2015-2016",
      "major": "Web Development - Online University",
      "url": "http://www.udacity.com",
      "cocreated": ["AT&T", "Google", "Hack Reactor", "Github"]
@@ -48,7 +48,7 @@ var work = {
       "employer": "Wilanow Academy",
       "title": "Vice-President",
       "location": "Warsaw, Poland",
-      "dates": "2015",
+      "dates": "2015-now",
       "description": "Projects Management and Development",
       "url": "http://www.akademiawilanowska.pl"
     },
@@ -57,7 +57,7 @@ var work = {
       "employer": "Metapartner",
       "title": "Media and Web Designer",
       "location": "Berlin, Germany",
-      "dates": "2013-2015",
+      "dates": "2013-now",
       "description": "Media Design, Web Design and Development, Drupal and WordPress CMS",
       "url": "https://www.metapartner.com"
     },
